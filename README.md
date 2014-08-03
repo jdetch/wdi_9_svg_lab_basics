@@ -1,13 +1,10 @@
-# Drawing with SVG Lab
+# SVG Basics
 
-[SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) (Scalable Vector Graphics) is an XML-based vector image format with support from all modern browsers.
-
-By the end of this exercise, you should feel comfortable writing basic charts and graphs with SVG.
+**[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)** (Scalable Vector Graphics) is an XML-based vector image format supported by all modern browsers. By the end of this exercise, you should feel comfortable creating basic static charts and graphs with SVG.
 
 ## Why SVG over images?
 
-* SVG images can be created using any text editor
-* SVG images can be zoomed, scaled, indexed, scripted, and compressed
-* SVG images can be printed with high quality at any resolution
-* SVG is an open standard
-* SVG files are just XML
+* SVG can be created using any text editor
+* SVG can be zoomed, scaled, indexed, scripted, and compressed
+* SVG can be printed with high quality at any resolution
+* SVG files are just XML, and thus easily manipulated by numerous libraries
