@@ -9,3 +9,13 @@ rect {
   stroke: orange;
   stroke-width: 20;
 }
+
+#your-star {
+  fill: lime;
+  stroke: red;
+  stroke-width: 2;
+}
+
+#circle {
+  fill: red;
+}
