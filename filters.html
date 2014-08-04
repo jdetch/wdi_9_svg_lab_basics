@@ -20,6 +20,27 @@
   <p>Make an SVG graphic of a 'vision test chart', where the top text is larger and sharper, and the bottom text is smaller and blurry</p>
 
   <div id="vision-chart">
+    <svg height="140" width="100">
+      <defs>
+        <filter id="f2" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+        </filter>
+        <filter id="f3" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+        </filter>
+        <filter id="f4" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+        </filter>
+        <filter id="f5" x="0" y="0">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+        </filter>
+      </defs>
+      <text x="0" y="20" fill="black">A E </text>
+      <text x="0" y="40" fill="black" filter="url(#f2)">A E </text>
+      <text x="0" y="60" fill="black" filter="url(#f3)">A E </text>
+      <text x="0" y="80" fill="black" filter="url(#f4)">A E </text>
+      <text x="0" y="100" fill="black" filter="url(#f5)">A E </text>
+    </svg>
   </div>
 </body>
 </html>
